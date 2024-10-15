@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 1em;
+      background-color: azure;
+    }
+    .countdown {
+      font-size: 2em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Countdown Timer</h1>
+
+  <label for="dateTime">Enter date and time:</label>
+  <input type="datetime-local" id="dateTime">
+  <button id="startCountdown">Start Countdown</button>
+
+  <div class="countdown" id="countdownDisplay">
+    Please set a date and time above to start the countdown.
+  </div>
+
+  <script src="countdown.js"></script>
+
+</body>
+</html>

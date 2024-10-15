@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture-in-Picture Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    video {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Picture-in-Picture with Screen Capture</h1>
+  <video id="video" autoplay playsinline></video>
+  <br>
+  <button id="startScreenCapture">Start Screen Capture</button>
+  <button id="pipButton" disabled>Enter Picture-in-Picture</button>
+
+  <script src="picture.js"></script>
+</body>
+</html>
